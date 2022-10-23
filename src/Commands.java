@@ -10,11 +10,6 @@ public class Commands {
  /t - 4 пробела (если есть 1 символ + 3 проб. и тд.)
 
 
-
-
-
-
-
  Hot keys
  Ctrl + Alt + l - выравнивание кода
  Ctrl + Q - Описание функции
@@ -30,6 +25,8 @@ public class Commands {
  !array[i][j].contains("е") - Массив НЕ содержит букву "e" ("!"- НЕ)
  .toString - Преобразовать в строку
 
+ Integer.mix(x1, x2) - найдет большее (min) меньшее
+ x1.compateTo.x2 - сравнивает два значения и выдает 0 если они равны -1 и 1
 
  boolen   a.equals(b) - сравнить две переменные ()
  compare(int a, int b) (Сравнение (результат 1, 0, -1)
@@ -62,7 +59,8 @@ public class Commands {
  если arrayStr[0] > Character.toString(arrayChar[0] - +1, если arrayStr[0] = Character.toString(arrayChar[0] - 0
  String   Character.toString('i' - 1); - Печать буквы а не значения символа из ASCII cod
  subtrack
-
+ String.format("%d\n%d\n%d\nПоехали!!!", 3, 2, 1) - для целых чисел
+ String.format("%s\n%s\n%s\nПоехали!!!", "3", "two", "one") - для строк
 
 
  a.getClass - Вывести класс переменной
@@ -70,8 +68,6 @@ public class Commands {
 
  Double.parseDouble(str1) - Double.parseDouble(str2)) - разность
  (Double.valueOf(str1) - Double.valueOf(str2)) - разность
-
-
 
 
  Math
@@ -109,11 +105,6 @@ public class Commands {
  *  Math.min(int a, int b, ....) - Минимальное значение
  *  Math.PI - 3.141592653589793
  *  MAth.E - 2.718281828459045 Число Элера
- *
- *
- *
-
-
 
 
  Циклы
@@ -134,6 +125,16 @@ public class Commands {
  do {    - Выполнится хотя бы одно действие до условия !
  sout
  i = 1 + 1
+
+ public static final String ANSI_RESET = "\u001B[0m";
+ public static final String ANSI_BLACK = "\u001B[30m";
+ public static final String ANSI_RED = "\u001B[31m";
+ public static final String ANSI_GREEN = "\u001B[32m";
+ public static final String ANSI_YELLOW = "\u001B[33m";
+ public static final String ANSI_BLUE = "\u001B[34m";
+ public static final String ANSI_PURPLE = "\u001B[35m";
+ public static final String ANSI_CYAN = "\u001B[36m";
+ public static final String ANSI_WHITE = "\u001B[37m";
 
  */
 }
